@@ -1,1 +1,4 @@
-# 空にする (既存のコードは削除する)
+Yamada:
+  name: Yamada Tetsuto
+  email: yyuya1029@ruri.waseda.jp
+  password_digest: <%= User.digest('password') %>
